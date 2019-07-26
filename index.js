@@ -1,7 +1,7 @@
 const {nerdvision} = require('@nerdvision/agent');
 
 nerdvision.init({
- apiKey : 'cb685576210b8109113c4a3054be99602ff0f1f97cd8f6a7893e5e911ec314202cc88c17b06fe6c1fc806be258cba6def749f92992fda65a7ed59158543e9ee8',
+ apiKey : '81a554bc915bfa33ab821d01aad72fe70b0c86bdd6495ec7fedd0424ef54ae41b7c6de6f0b0f44f5c7c78a0e7206cdfa9d47e42733a679008232fc6b8bd4b1e5',
  apiUrl : 'api.bbn.nerd.vision',
  debug: true
 }).then( (dks) => {
@@ -15,6 +15,10 @@ nerdvision.init({
 
     }
 
-    console.log(t.thing.undef);
+
+    setInterval( () => {
+        console.log(t.thing.undef);
+    },2000);
+    
 
 });
