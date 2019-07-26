@@ -1,0 +1,22 @@
+{
+  "name": "test-nv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomompo/test-nv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tomompo/test-nv/issues"
+  },
+  "homepage": "https://github.com/Tomompo/test-nv#readme",
+  "dependencies": {
+    "@nerdvision/agent": "^0.2.1"
+  }
+}
